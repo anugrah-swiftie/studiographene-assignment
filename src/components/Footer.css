@@ -1,0 +1,99 @@
+:root {
+  --orange: #f07e15;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.footer {
+  max-width: 100vw;
+  height: 520px;
+  display: flex;
+  padding-top: 82px;
+  padding-left: 103px;
+}
+
+.newsletter {
+  width: 337px;
+}
+
+.footer a {
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31.2px;
+  color: grey;
+  text-decoration: none;
+}
+
+.footer p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.11px;
+  color: grey;
+}
+
+div > form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 176px;
+  width: 558px;
+}
+
+form > input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+}
+
+.email,
+.message {
+  margin-top: 35px;
+}
+
+.contact-us {
+  position: absolute;
+  top: 1846px;
+  left: 90px;
+}
+
+.contact-us > h1 {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: 135px;
+  line-height: 102.6px;
+  color: var(--white);
+}
+
+.send-button {
+  position: absolute;
+  top: 1822px;
+  left: 1162px;
+}
+
+.send-button > button {
+  background: transparent;
+  border: 2px solid var(--orange);
+  color: var(--orange);
+  border-radius: 100%;
+  width: 181px;
+  height: 181px;
+}
+
+.copyright-section {
+  height: 66px;
+  width: 100vw;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-section > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--white);
+  margin-bottom: 0;
+}

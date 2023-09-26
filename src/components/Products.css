@@ -1,0 +1,105 @@
+:root {
+  --custom-black: #161615;
+}
+
+.product-title {
+  padding: 0 83px;
+  padding-top: 69px;
+}
+
+.product-title > h2 {
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 108px;
+  color: black;
+}
+
+.horizontal-rule-2 {
+  max-width: 659px;
+  color: var(--custom-black);
+  border: 1px solid var(--custom-black);
+}
+
+.product-container {
+  padding-left: 83px;
+  display: flex;
+}
+
+.products {
+  margin-left: 151px;
+  padding-top: 34px;
+  margin-bottom: 105px;
+  overflow-x: scroll;
+}
+
+.categories {
+  list-style-type: none;
+}
+
+.category {
+  margin-top: 34px;
+}
+
+.category > a {
+  text-decoration: none;
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.11px;
+}
+
+.category > a:hover {
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31.2px;
+}
+
+.product-card {
+  margin-left: 26px;
+}
+
+.product-image {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.img-product {
+  width: 310px;
+  height: 322px;
+  object-fit: contain;
+}
+
+.redirect-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+}
+
+.product-description {
+  margin-top: 12px;
+  width: 310px;
+  height: 125px;
+  overflow-y: scroll;
+}
+
+.product-description > h4 {
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31.2px;
+  color: black;
+}
+
+.product-description > p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.42px;
+  color: var(--custom-black);
+  filter: grayscale(50%);
+}

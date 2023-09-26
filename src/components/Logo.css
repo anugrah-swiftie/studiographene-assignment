@@ -1,0 +1,54 @@
+:root {
+  --white: #ffffff;
+}
+
+.parent-div-2 {
+  display: flex;
+  background-color: black;
+  background-blend-mode: overlay;
+  padding: 0 90px;
+}
+
+.left-div > a {
+  text-decoration: none;
+}
+
+.left-div a h1 {
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-weight: 275;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.right-div ul {
+  list-style-type: none;
+}
+
+.right-div a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.42px;
+}
+
+.right-div li {
+  padding-top: 28px;
+}
+
+.bag {
+  margin-left: 10px;
+}
+
+.horizontal-rule {
+  background-color: black;
+  margin: 0 90px;
+  position: absolute;
+  top: 93px;
+}
+
+.horizontal-rule > img {
+  width: 100%;
+}

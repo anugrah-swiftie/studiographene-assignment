@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/studiographene-assignment/static/css/main.60b07e2a.css",
+    "main.js": "/studiographene-assignment/static/js/main.1bfd4679.js",
+    "static/media/banner.png": "/studiographene-assignment/static/media/banner.6d96cc5cb3ab8e759f9b.png",
+    "static/media/footer-background-img.png": "/studiographene-assignment/static/media/footer-background-img.c97d0b196854132fb8d2.png",
+    "static/media/florida-jacket.png": "/studiographene-assignment/static/media/florida-jacket.3a64dcb8ae03eb031992.png",
+    "index.html": "/studiographene-assignment/index.html",
+    "main.60b07e2a.css.map": "/studiographene-assignment/static/css/main.60b07e2a.css.map",
+    "main.1bfd4679.js.map": "/studiographene-assignment/static/js/main.1bfd4679.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b07e2a.css",
+    "static/js/main.1bfd4679.js"
+  ]
+}
